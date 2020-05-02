@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SneakerDetailActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:text="@string/sneaker_detail"
+        android:textColor="@color/color_bt_login"
+        android:textSize="38sp" />
+
+    <EditText
+        android:id="@+id/et_brand_detail_sneaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="@string/brand"
+        android:enabled="false"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_model_detail_sneaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:enabled="false"
+        android:hint="@string/model" />
+
+    <EditText
+        android:id="@+id/et_size_detail_sneaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:enabled="false"
+        android:hint="@string/size" />
+
+    <EditText
+        android:id="@+id/et_owner_detail_sneaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:enabled="false"
+        android:hint="@string/owner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_edit_sneaker_detail"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_weight="0.3"
+            android:background="@color/yellow"
+            android:padding="14sp"
+            android:text="@string/edit_sneaker"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_save_sneaker_detail"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_weight="0.5"
+            android:background="@color/green"
+            android:padding="14sp"
+            android:text="@string/save"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_owner_sneaker_detail"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:background="@color/color_bt_login"
+            android:padding="14sp"
+            android:text="@string/owner"
+            android:textColor="@color/white"
+            android:layout_weight="0.2"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_delete_sneaker_detail"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginEnd="8sp"
+        android:background="@color/red"
+        android:padding="14sp"
+        android:text="@string/delete"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>

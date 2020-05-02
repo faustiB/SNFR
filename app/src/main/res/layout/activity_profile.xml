@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/profile"
+        android:textColor="@color/color_bt_login"
+        android:textSize="38sp"
+        android:layout_marginTop="10sp"/>
+
+    <EditText
+        android:id="@+id/et_email_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/et_phone_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:inputType="phone"
+        android:hint="@string/phone_number"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_edit_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_profile"
+            android:padding="14sp"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_weight="0.2"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
+
+        <Button
+            android:id="@+id/bt_save_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:padding="14sp"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_weight="0.6"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
+
+        <Button
+            android:id="@+id/bt_sneakers_show_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_sneakers"
+            android:padding="14sp"
+            android:background="@color/color_bt_login"
+            android:textColor="@color/white"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_weight="0.2"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6sp">
+        <Button
+            android:id="@+id/bt_call_show_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/call"
+            android:padding="14sp"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_weight="0.5"
+            android:enabled="false"
+            android:visibility="invisible"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
+        <Button
+            android:id="@+id/bt_send_email_show_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_email"
+            android:padding="14sp"
+            android:background="@color/color_bt_login"
+            android:textColor="@color/white"
+            android:layout_marginStart="8sp"
+            android:layout_marginEnd="8sp"
+            android:layout_weight="0.5"
+            android:enabled="false"
+            android:visibility="invisible"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

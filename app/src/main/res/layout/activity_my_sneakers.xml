@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MySneakersActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_sneakers"
+        android:gravity="center"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/color_bt_login"
+        android:textSize="38sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_add_sneaker"
+        android:text="@string/add_sneaker"
+        android:layout_marginTop="60sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginEnd="8sp"
+        android:textColor="@color/white"
+        android:background="@color/color_bt_login"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="110sp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_my_sneakers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </ScrollView>
+
+
+</RelativeLayout>

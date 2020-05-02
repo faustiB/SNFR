@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Sneaker Finder</string>
+    <string name="user_hint">User</string>
+    <string name="paswd_hint">Password</string>
+    <string name="log_in_button_text">Log in</string>
+    <string name="sign_up_button_text">Sign Up</string>
+    <string name="email_hint">E-Mail</string>
+    <string name="phone_hint">Phone</string>
+    <string name="forgot_pswd">Forgot your password?</string>
+    <string name="favorites">Favourites</string>
+    <string name="log_out">Log out</string>
+    <string name="profile">Profile</string>
+    <string name="phone_number">Phone number</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="save">Save</string>
+    <string name="my_sneakers">My Sneakers</string>
+    <string name="sneaker_detail">Sneaker Detail</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="size">Size</string>
+    <string name="owner">Owner</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete sneaker</string>
+    <string name="add_sneaker">Add Sneaker</string>
+    <string name="edit_sneaker">Edit Sneaker</string>
+    <string name="send_email">Send Email</string>
+    <string name="call">Call</string>
+    <string name="enter_as_a_guest">Enter as a guest</string>
+    <string name="search">Search</string>
+
+    <string-array name="user_type">
+        <item>Buyer</item>
+        <item>Seller</item>
+    </string-array>
+</resources>
+

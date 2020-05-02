@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "978563603877",
+    "firebase_url": "https://sneaker-finder-f0127.firebaseio.com",
+    "project_id": "sneaker-finder-f0127",
+    "storage_bucket": "sneaker-finder-f0127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978563603877:android:aa77fdbb2cd6f4e58b9c4c",
+        "android_client_info": {
+          "package_name": "com.example.sneakerfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978563603877-1l9937k36pdtkjehctll6plku63bpksu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2KCVZ1EhNawvweKtwFws0UHYhGWFeJno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978563603877-1l9937k36pdtkjehctll6plku63bpksu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
